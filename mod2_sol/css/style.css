@@ -1,0 +1,51 @@
+section {
+	background-color:grey;
+	border:2px solid black;
+	padding: 10px;
+	margin: 20px;
+	background-color:grey;
+	position: relative;
+	float: left;
+}
+*{
+	font-style: italic; 
+	box-sizing: border-box;
+}
+h3{
+	text-align: center;
+}
+h5{
+	border:2px solid black;
+	border-top: 0px;
+	border-right: 0px;
+	margin-top: 0px;
+	padding:4px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.green{
+	background-color: #d2691e;
+	color: white;
+}
+.blue{
+	background-color: #ffe0bd;
+}
+.pink{
+	background-color: pink;
+}
+@media(min-width: 992px)
+{
+	section{
+		width: 27%;
+	}
+}
+@media(max-width: 991px) and (min-width: 768px)
+{
+	section{
+		width: 42%;
+	}
+	.half{
+		width: 89%;
+	}
+}
